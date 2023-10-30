@@ -1,6 +1,7 @@
 import openai
+import config
 
-openai.api_key = "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"
+openai.api_key = config.openai_key
 
 # prompt = "Return a comma separated list of the information required for a contract to sell a house from a 50 house development."
 
